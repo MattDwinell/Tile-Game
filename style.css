@@ -3,11 +3,40 @@
    width: 100%;
    height: 100%;
 }
+body{
+  background-color: black;
+}
+input{
+    background-color: white;
+    color: black;
+
+}
+.empty{
+    background-color: white;
+}
+.left{
+
+    right: 0px;
+   
+}
+.column-wrapper{
+    position: fixed;
+    top: 150px;
+    height: 500px;
+    width: 30%;
+}
+.column-wrapper img{
+    width: 100%;
+}
+.right{
+    left: 0px;
+}
 .testimg{
     border: 2px solid black;
     width: 100%;
     height: 100%;
 }
+
 #img-frame{
     margin: 0 auto;
     width: 750px;
