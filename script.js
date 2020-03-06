@@ -334,11 +334,11 @@ $(function () {
     }
     function gameCheck() {
         console.log(currentNine, goalNine);
-        gameNineWon = true;
+        // gameNineWon = true;
         for (let i = 0; i < currentNine.length; i++) {
             if (currentNine[i] != goalNine[i]) {
                 //change back to return false when done checking second game
-                return true;
+                return false;
             }
         }
         //uncomment gameninewin here and remove earlier change to gamenine in function
